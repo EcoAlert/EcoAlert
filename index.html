@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Proyecto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="asesst/css/desig.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="asesst/img/icono.png" type="imagen/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar verde sólido con logo -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="asesst/img/icono.png" alt="Logo del Proyecto" width="50" height="50" class="me-2"
+                    style="border-radius: 10px;"> <!-- Logo del proyecto -->
+                <strong>Eco</strong> Alert
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#quienes-somos">Quiénes Somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre-proyecto">Qué es el Proyecto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galeria">Capturas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#descarga">Descargar</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección de introducción con imagen de fondo, "EcoAlert" y botón animado -->
+    <section class="hero-section section-fullwidth">
+        <h1><strong>Eco</strong> Alert</h1>
+        <a href="#quienes-somos" class="btn btn-lg btn-animated">Descubre Más</a>
+    </section>
+
+    <!-- Quiénes Somos -->
+    <section id="quienes-somos" class="section-fullwidth text-center bg-light">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="text-start col-md-6">
+                <h2 style="color: #28a745;">¿Quiénes Somos?</h2>
+                <p>Somos un equipo de cuatro estudiantes comprometidos en el desarrollo de EcoAlert, una solución
+                    tecnológica diseñada para promover la limpieza y el cuidado del medio ambiente en nuestra comunidad.
+                    Creemos que a través de EcoAlert, podemos hacer que el cambio comience en nuestra propia comunidad,
+                    motivando a otros a unirse a nuestra misión por un ambiente más limpio y sostenible.</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="asesst/img/posible fondo 1.png" class="img-fluid" alt="Quiénes Somos"
+                    style="border-radius: 10px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre el Proyecto -->
+    <section id="sobre-proyecto" class="section-fullwidth">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="text-end col-md-6">
+                <h2 style="color: #28a745;">¿Qué es el Proyecto?</h2>
+                <p>Es una aplicación móvil que ayudará a la comunidad de un barrio situado en el municipio de
+                    Barranquilla a
+                    mantener sus calles limpias de basuras.</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="asesst/img/posible fondo 2.png" class="img-fluid" alt="Qué es el Proyecto"
+                    style="border-radius: 10px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería de Capturas -->
+    <section id="galeria" class="section-fullwidth bg-light">
+        <div class="container">
+            <h2 style="color: #28a745;" class="text-center">Capturas de la App</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-5 m-4">
+                    <img src="asesst/img/Capturas EcoAlert.png" class="img-fluid" alt="Captura 1">
+                    <!-- el fluid lo hace responsive y por eso no se pone del tamaño -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Descargar App -->
+    <section id="descarga" class="section-fullwidth text-center">
+        <div class="container">
+            <h2 style="color: #28a745;">Descarga la Aplicación</h2>
+            <p>Descarga la aplicación EcoAlert y únete a nuestra misión de mantener el entorno limpio.</p>
+            <a href="asesst/apk/EcoAlert.apk" style="border-radius: 50px; background-color: #28a745; color: #ffffff;"
+                class="btn btn-lg btn-animated">Descargar
+                EcoAlert</a>
+        </div>
+    </section>
+
+    <footer
+        style="border-radius: 10px 10px 0 0; background-color: #28a745; color: white; text-align: center; padding: 1rem; margin-top: 2rem;">
+        <p>Contacto: <a href="mailto:ecoalert@gmail.com"
+                style="color: #ffffff; text-decoration: none;">ecoalert@gmail.com</a></p>
+        <p>&copy; 2024 EcoAlert. Todos los derechos reservados.</p>
+    </footer>
+
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
